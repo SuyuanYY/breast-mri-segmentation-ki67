@@ -2,7 +2,7 @@
 
 **Algorithm Lead** · Collaboration with Jinzhou Affiliated Hospital · Apr–Nov 2026
 
-I developed a working desktop app for running MRI inference and reviewing the results directly in its graphical interface. It supports linked axial, coronal and sagittal views, slice-by-slice inspection, and 3D comparison of manual and automated segmentations.
+I led algorithm development for breast lesion localisation and segmentation, multiphase MRI fusion, and Ki-67 expression prediction.
 
 ## Methods and test-set results
 
@@ -11,6 +11,8 @@ I developed a working desktop app for running MRI inference and reviewing the re
 - **Ki-67 prediction.** Developed a logistic regression model using 12 intratumoural and peritumoural radiomic features and a fusion network using five DCE-MRI phases plus ADC, DWI and T2. The fusion network achieved test AUROCs of **0.838** with manual masks and **0.778** with automated masks.
 
 ## App demos
+
+I also built a working desktop app to make the research workflow easier to demonstrate and use. The app runs model inference directly from its graphical interface and supports linked axial, coronal and sagittal views, slice-by-slice review, and 3D comparison of manual and automated segmentations.
 
 ### Inference and slice review
 
